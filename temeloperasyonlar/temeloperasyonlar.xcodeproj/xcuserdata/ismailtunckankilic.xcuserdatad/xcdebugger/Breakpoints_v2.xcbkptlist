@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "66015601-C1CD-4278-9CF8-430A2825F0EF"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DC486BCB-7C88-4D85-8BE7-29C9FE7B06F3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "temeloperasyonlar/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "DC486BCB-7C88-4D85-8BE7-29C9FE7B06F3 - 8d6289b62f08eadd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "temeloperasyonlar.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "temeloperasyonlar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ismailtunckankilic/Documents/GitHub/swiftdersleri/temeloperasyonlar/temeloperasyonlar/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "DC486BCB-7C88-4D85-8BE7-29C9FE7B06F3 - 8d6289b62f08eafc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "temeloperasyonlar.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "temeloperasyonlar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ismailtunckankilic/Documents/GitHub/swiftdersleri/temeloperasyonlar/temeloperasyonlar/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "DC486BCB-7C88-4D85-8BE7-29C9FE7B06F3 - 8d6289b62f08eabe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "temeloperasyonlar.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "temeloperasyonlar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ismailtunckankilic/Documents/GitHub/swiftdersleri/temeloperasyonlar/temeloperasyonlar/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "DC486BCB-7C88-4D85-8BE7-29C9FE7B06F3 - 8d6289b62f08eafc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "temeloperasyonlar.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "temeloperasyonlar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ismailtunckankilic/Documents/GitHub/swiftdersleri/temeloperasyonlar/temeloperasyonlar/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "DC486BCB-7C88-4D85-8BE7-29C9FE7B06F3 - 8d6289b62f08ea9f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "temeloperasyonlar.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "temeloperasyonlar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ismailtunckankilic/Documents/GitHub/swiftdersleri/temeloperasyonlar/temeloperasyonlar/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

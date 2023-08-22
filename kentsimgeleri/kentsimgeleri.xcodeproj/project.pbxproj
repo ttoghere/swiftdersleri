@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B70ED592A94BC0600A9CC59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B70ED582A94BC0600A9CC59 /* AppDelegate.swift */; };
+		3B70ED5B2A94BC0600A9CC59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B70ED5A2A94BC0600A9CC59 /* SceneDelegate.swift */; };
+		3B70ED5D2A94BC0600A9CC59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B70ED5C2A94BC0600A9CC59 /* ViewController.swift */; };
+		3B70ED602A94BC0600A9CC59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B70ED5E2A94BC0600A9CC59 /* Main.storyboard */; };
+		3B70ED622A94BC0700A9CC59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B70ED612A94BC0700A9CC59 /* Assets.xcassets */; };
+		3B70ED652A94BC0700A9CC59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B70ED632A94BC0700A9CC59 /* LaunchScreen.storyboard */; };
+		3B70ED702A94BC0700A9CC59 /* kentsimgeleriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B70ED6F2A94BC0700A9CC59 /* kentsimgeleriTests.swift */; };
+		3B70ED7A2A94BC0700A9CC59 /* kentsimgeleriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B70ED792A94BC0700A9CC59 /* kentsimgeleriUITests.swift */; };
+		3B70ED7C2A94BC0700A9CC59 /* kentsimgeleriUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B70ED7B2A94BC0700A9CC59 /* kentsimgeleriUITestsLaunchTests.swift */; };
+		3B70ED8B2A94CB9C00A9CC59 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B70ED8A2A94CB9C00A9CC59 /* DetailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B70ED6C2A94BC0700A9CC59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B70ED4D2A94BC0600A9CC59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B70ED542A94BC0600A9CC59;
+			remoteInfo = kentsimgeleri;
+		};
+		3B70ED762A94BC0700A9CC59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B70ED4D2A94BC0600A9CC59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B70ED542A94BC0600A9CC59;
+			remoteInfo = kentsimgeleri;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B70ED552A94BC0600A9CC59 /* kentsimgeleri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kentsimgeleri.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B70ED582A94BC0600A9CC59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B70ED5A2A94BC0600A9CC59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3B70ED5C2A94BC0600A9CC59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B70ED5F2A94BC0600A9CC59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B70ED612A94BC0700A9CC59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B70ED642A94BC0700A9CC59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B70ED662A94BC0700A9CC59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B70ED6B2A94BC0700A9CC59 /* kentsimgeleriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kentsimgeleriTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B70ED6F2A94BC0700A9CC59 /* kentsimgeleriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kentsimgeleriTests.swift; sourceTree = "<group>"; };
+		3B70ED752A94BC0700A9CC59 /* kentsimgeleriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kentsimgeleriUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B70ED792A94BC0700A9CC59 /* kentsimgeleriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kentsimgeleriUITests.swift; sourceTree = "<group>"; };
+		3B70ED7B2A94BC0700A9CC59 /* kentsimgeleriUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kentsimgeleriUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3B70ED8A2A94CB9C00A9CC59 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B70ED522A94BC0600A9CC59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B70ED682A94BC0700A9CC59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B70ED722A94BC0700A9CC59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B70ED4C2A94BC0600A9CC59 = {
+			isa = PBXGroup;
+			children = (
+				3B70ED572A94BC0600A9CC59 /* kentsimgeleri */,
+				3B70ED6E2A94BC0700A9CC59 /* kentsimgeleriTests */,
+				3B70ED782A94BC0700A9CC59 /* kentsimgeleriUITests */,
+				3B70ED562A94BC0600A9CC59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B70ED562A94BC0600A9CC59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B70ED552A94BC0600A9CC59 /* kentsimgeleri.app */,
+				3B70ED6B2A94BC0700A9CC59 /* kentsimgeleriTests.xctest */,
+				3B70ED752A94BC0700A9CC59 /* kentsimgeleriUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B70ED572A94BC0600A9CC59 /* kentsimgeleri */ = {
+			isa = PBXGroup;
+			children = (
+				3B70ED582A94BC0600A9CC59 /* AppDelegate.swift */,
+				3B70ED5A2A94BC0600A9CC59 /* SceneDelegate.swift */,
+				3B70ED5C2A94BC0600A9CC59 /* ViewController.swift */,
+				3B70ED8A2A94CB9C00A9CC59 /* DetailsViewController.swift */,
+				3B70ED5E2A94BC0600A9CC59 /* Main.storyboard */,
+				3B70ED612A94BC0700A9CC59 /* Assets.xcassets */,
+				3B70ED632A94BC0700A9CC59 /* LaunchScreen.storyboard */,
+				3B70ED662A94BC0700A9CC59 /* Info.plist */,
+			);
+			path = kentsimgeleri;
+			sourceTree = "<group>";
+		};
+		3B70ED6E2A94BC0700A9CC59 /* kentsimgeleriTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B70ED6F2A94BC0700A9CC59 /* kentsimgeleriTests.swift */,
+			);
+			path = kentsimgeleriTests;
+			sourceTree = "<group>";
+		};
+		3B70ED782A94BC0700A9CC59 /* kentsimgeleriUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B70ED792A94BC0700A9CC59 /* kentsimgeleriUITests.swift */,
+				3B70ED7B2A94BC0700A9CC59 /* kentsimgeleriUITestsLaunchTests.swift */,
+			);
+			path = kentsimgeleriUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B70ED542A94BC0600A9CC59 /* kentsimgeleri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B70ED7F2A94BC0700A9CC59 /* Build configuration list for PBXNativeTarget "kentsimgeleri" */;
+			buildPhases = (
+				3B70ED512A94BC0600A9CC59 /* Sources */,
+				3B70ED522A94BC0600A9CC59 /* Frameworks */,
+				3B70ED532A94BC0600A9CC59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kentsimgeleri;
+			productName = kentsimgeleri;
+			productReference = 3B70ED552A94BC0600A9CC59 /* kentsimgeleri.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B70ED6A2A94BC0700A9CC59 /* kentsimgeleriTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B70ED822A94BC0700A9CC59 /* Build configuration list for PBXNativeTarget "kentsimgeleriTests" */;
+			buildPhases = (
+				3B70ED672A94BC0700A9CC59 /* Sources */,
+				3B70ED682A94BC0700A9CC59 /* Frameworks */,
+				3B70ED692A94BC0700A9CC59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B70ED6D2A94BC0700A9CC59 /* PBXTargetDependency */,
+			);
+			name = kentsimgeleriTests;
+			productName = kentsimgeleriTests;
+			productReference = 3B70ED6B2A94BC0700A9CC59 /* kentsimgeleriTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B70ED742A94BC0700A9CC59 /* kentsimgeleriUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B70ED852A94BC0700A9CC59 /* Build configuration list for PBXNativeTarget "kentsimgeleriUITests" */;
+			buildPhases = (
+				3B70ED712A94BC0700A9CC59 /* Sources */,
+				3B70ED722A94BC0700A9CC59 /* Frameworks */,
+				3B70ED732A94BC0700A9CC59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B70ED772A94BC0700A9CC59 /* PBXTargetDependency */,
+			);
+			name = kentsimgeleriUITests;
+			productName = kentsimgeleriUITests;
+			productReference = 3B70ED752A94BC0700A9CC59 /* kentsimgeleriUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B70ED4D2A94BC0600A9CC59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3B70ED542A94BC0600A9CC59 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					3B70ED6A2A94BC0700A9CC59 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3B70ED542A94BC0600A9CC59;
+					};
+					3B70ED742A94BC0700A9CC59 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3B70ED542A94BC0600A9CC59;
+					};
+				};
+			};
+			buildConfigurationList = 3B70ED502A94BC0600A9CC59 /* Build configuration list for PBXProject "kentsimgeleri" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B70ED4C2A94BC0600A9CC59;
+			productRefGroup = 3B70ED562A94BC0600A9CC59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B70ED542A94BC0600A9CC59 /* kentsimgeleri */,
+				3B70ED6A2A94BC0700A9CC59 /* kentsimgeleriTests */,
+				3B70ED742A94BC0700A9CC59 /* kentsimgeleriUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B70ED532A94BC0600A9CC59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B70ED652A94BC0700A9CC59 /* LaunchScreen.storyboard in Resources */,
+				3B70ED622A94BC0700A9CC59 /* Assets.xcassets in Resources */,
+				3B70ED602A94BC0600A9CC59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B70ED692A94BC0700A9CC59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B70ED732A94BC0700A9CC59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B70ED512A94BC0600A9CC59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B70ED5D2A94BC0600A9CC59 /* ViewController.swift in Sources */,
+				3B70ED592A94BC0600A9CC59 /* AppDelegate.swift in Sources */,
+				3B70ED5B2A94BC0600A9CC59 /* SceneDelegate.swift in Sources */,
+				3B70ED8B2A94CB9C00A9CC59 /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B70ED672A94BC0700A9CC59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B70ED702A94BC0700A9CC59 /* kentsimgeleriTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B70ED712A94BC0700A9CC59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B70ED7C2A94BC0700A9CC59 /* kentsimgeleriUITestsLaunchTests.swift in Sources */,
+				3B70ED7A2A94BC0700A9CC59 /* kentsimgeleriUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B70ED6D2A94BC0700A9CC59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B70ED542A94BC0600A9CC59 /* kentsimgeleri */;
+			targetProxy = 3B70ED6C2A94BC0700A9CC59 /* PBXContainerItemProxy */;
+		};
+		3B70ED772A94BC0700A9CC59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B70ED542A94BC0600A9CC59 /* kentsimgeleri */;
+			targetProxy = 3B70ED762A94BC0700A9CC59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B70ED5E2A94BC0600A9CC59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B70ED5F2A94BC0600A9CC59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B70ED632A94BC0700A9CC59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B70ED642A94BC0700A9CC59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B70ED7D2A94BC0700A9CC59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B70ED7E2A94BC0700A9CC59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B70ED802A94BC0700A9CC59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2T55ML92H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = kentsimgeleri/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = site.tunckankilic.kentsimgeleri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B70ED812A94BC0700A9CC59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2T55ML92H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = kentsimgeleri/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = site.tunckankilic.kentsimgeleri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B70ED832A94BC0700A9CC59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2T55ML92H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = site.tunckankilic.kentsimgeleriTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kentsimgeleri.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kentsimgeleri";
+			};
+			name = Debug;
+		};
+		3B70ED842A94BC0700A9CC59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2T55ML92H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = site.tunckankilic.kentsimgeleriTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kentsimgeleri.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kentsimgeleri";
+			};
+			name = Release;
+		};
+		3B70ED862A94BC0700A9CC59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2T55ML92H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = site.tunckankilic.kentsimgeleriUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kentsimgeleri;
+			};
+			name = Debug;
+		};
+		3B70ED872A94BC0700A9CC59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2T55ML92H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = site.tunckankilic.kentsimgeleriUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kentsimgeleri;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B70ED502A94BC0600A9CC59 /* Build configuration list for PBXProject "kentsimgeleri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B70ED7D2A94BC0700A9CC59 /* Debug */,
+				3B70ED7E2A94BC0700A9CC59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B70ED7F2A94BC0700A9CC59 /* Build configuration list for PBXNativeTarget "kentsimgeleri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B70ED802A94BC0700A9CC59 /* Debug */,
+				3B70ED812A94BC0700A9CC59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B70ED822A94BC0700A9CC59 /* Build configuration list for PBXNativeTarget "kentsimgeleriTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B70ED832A94BC0700A9CC59 /* Debug */,
+				3B70ED842A94BC0700A9CC59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B70ED852A94BC0700A9CC59 /* Build configuration list for PBXNativeTarget "kentsimgeleriUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B70ED862A94BC0700A9CC59 /* Debug */,
+				3B70ED872A94BC0700A9CC59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B70ED4D2A94BC0600A9CC59 /* Project object */;
+}
